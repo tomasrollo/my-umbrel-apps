@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: hello-world-webapp_server_1
-      APP_PORT: 9999
+      APP_HOST: tomasrollo-prefect_server_1
+      APP_PORT: 4200
       PROXY_AUTH_ADD: "false"
 
   server:
     image: docker.io/boxboat/hello-world-webapp:latest
     environment:
-      PORT: 9999
+      PORT: 4200
     restart: on-failure
