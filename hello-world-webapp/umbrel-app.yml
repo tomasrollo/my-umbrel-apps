@@ -2,7 +2,7 @@ manifestVersion: 1
 id: hello-world-webapp
 name: Hellow World Webapp
 tagline: Test web app
-category: developer
+category: Finance
 version: "0.0.1"
 port: 9999
 description: >-
@@ -11,13 +11,15 @@ developer: Boxboat
 website: https://hub.docker.com/r/boxboat/hello-world-webapp
 repo: https://github.com/boxboat/hello-world-webapp
 support: https://github.com/boxboat/hello-world-webapp/issues
+icon: https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/dcrdex-logo.svg
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_1.png
+  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_2.png
+  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_3.png
 releaseNotes: ""
 dependencies: []
 path: ""
 torOnly: false
 defaultUsername: ""
 defaultPassword: ""
+submitter: TomasRollo
