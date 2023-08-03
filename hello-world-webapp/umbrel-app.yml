@@ -7,19 +7,21 @@ version: "0.0.1"
 port: 9999
 description: >-
   A test web app showing just the internal IP address
+
 developer: Boxboat
 website: https://hub.docker.com/r/boxboat/hello-world-webapp
 repo: https://github.com/boxboat/hello-world-webapp
 support: https://github.com/boxboat/hello-world-webapp/issues
-icon: https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/dcrdex-logo.svg
+icon: https://svgur.com/i/mvA.svg
 gallery:
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_1.png
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_2.png
-  - https://raw.githubusercontent.com/decred/umbrel-app-store/master/decred-dcrdex/images/screenshot_3.png
-releaseNotes: ""
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: "First release"
 dependencies: []
 path: ""
 torOnly: false
 defaultUsername: ""
 defaultPassword: ""
 submitter: TomasRollo
+submission: https://github.com/getumbrel/umbrel-hello-world-app
