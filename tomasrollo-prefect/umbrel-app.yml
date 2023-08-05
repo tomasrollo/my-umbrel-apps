@@ -2,21 +2,19 @@ manifestVersion: 1
 id: tomasrollo-prefect
 name: Prefect
 tagline: A Python flow automation
-category: Finance
+category: Automation
 version: "0.0.1"
 port: 4200
 description: >-
-  A test web app showing just the internal IP address
+  A Prefect server + worker
 
 developer: Prefect
 website: https://www.prefect.io
-repo: https://github.com/boxboat/hello-world-webapp
+repo: https://github.com/PrefectHQ/prefect
 support: https://communityinviter.com/apps/prefect-community/prefect-community
-icon: https://svgur.com/i/mvA.svg
+icon: https://cdnlogo.com/logos/p/3/prefect.svg
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://raw.githubusercontent.com/PrefectHQ/prefect/main/docs/img/ui/dashboard-oss.png
 releaseNotes: "First release"
 dependencies: []
 path: ""
@@ -24,4 +22,3 @@ torOnly: false
 defaultUsername: ""
 defaultPassword: ""
 submitter: TomasRollo
-submission: https://github.com/getumbrel/umbrel-hello-world-app
