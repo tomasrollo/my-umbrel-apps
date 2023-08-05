@@ -4,17 +4,17 @@ services:
   app_proxy:
     environment:
       APP_HOST: tomasrollo-minio_minio_1
-      APP_PORT: 9001
+      APP_PORT: 19001
       PROXY_AUTH_ADD: "false"
 
   ### MinIO for flow storage
   minio:
     image: minio/minio:latest
-    entrypoint: ["minio", "server", "--address", "0.0.0.0:9000", "--console-address", "0.0.0.0:9001", "/data"]
+    entrypoint: ["minio", "server", "--address", "0.0.0.0:19000", "--console-address", "0.0.0.0:19001", "/data"]
     restart: on-failure
     stop_grace_period: 1m
     volumes:
       - ${APP_DATA_DIR}/data:/data
     ports:
-      - 9000:9000
-      - 9001:9001
+      - 19000:19000
+      - 19001:19001
