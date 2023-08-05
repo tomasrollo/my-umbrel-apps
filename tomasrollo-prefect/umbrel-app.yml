@@ -3,7 +3,7 @@ id: tomasrollo-prefect
 name: Prefect
 tagline: A Python flow automation
 category: Automation
-version: "0.0.1"
+version: "0.0.2"
 port: 4201
 description: >-
   A Prefect server + worker
